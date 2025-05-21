@@ -9,6 +9,7 @@
 		/>
 		<link href="style.css" rel="stylesheet" />
 		<script src="script.js" defer></script>
+		<script type="module" src="authentication.js" defer></script>
 		<script
 			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
 			defer
@@ -23,6 +24,12 @@
 
 	<body>
 		<div class="container">
+			<div class="container mt-4 mb-4">
+				<button id="signInButton" class="btn btn-primary">
+					Create Account / Sign In
+				</button>
+				<button id="signOutButton" class="btn btn-secondary">Sign Out</button>
+			</div>
 			<h1>Uzupełnij formularz</h1>
 			<form id="form">
 				<fieldset class="mb-3 border p-3">
